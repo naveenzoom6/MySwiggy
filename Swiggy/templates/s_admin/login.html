@@ -1,0 +1,33 @@
+
+{% extends 's_admin/common.html' %}
+
+{% block common %}
+    <form action="{% url 'admin_login_check' %}" method="post">
+    {% csrf_token %}
+        <table align="center" border="0">
+        <tr><th colspan="2" height="130" style="text-align: center;font-family: Arial;font-size: 30px;color: blue">
+            Admin Login page</th></tr>
+        <tr>
+            <th height="80" width="100">Username </th>
+            <th><input type="text" required name="admin_username"></th>
+        </tr>
+        <tr>
+            <th height="80" width="100">Password </th>
+            <th><input type="password" required name="admin_password"></th>
+        </tr>
+        <tr>
+            <th colspan="2" height="80"  style="text-align: center">
+                <button type="submit">Login</button>
+            </th>
+        </tr>
+
+        {% for x in messages %}
+        <tr>
+            <th colspan="2" height="80"  style="text-align: center">
+                {{ x }}
+            </th>
+        </tr>
+            {% endfor %}
+    </table>
+    </form>
+{% endblock %}
