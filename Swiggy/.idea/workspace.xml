@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2806cd5-b6eb-4772-ae17-8d1b2c119f43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/restaurant/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1ff5974-aeef-4b8b-86e7-8987d8fa4827.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f1ff5974-aeef-4b8b-86e7-8987d8fa4827.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_admin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/s_admin/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/menu.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,50 +53,54 @@
     <session id="-2088142192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="django_session" value="1" />
-          <entry key="html" value="4" />
-          <entry key="py" value="11" />
+          <entry key="html" value="7" />
+          <entry key="py" value="13" />
           <entry key="s_admin_adminloginmodel" value="2" />
+          <entry key="s_admin_citymodel" value="1" />
+          <entry key="s_admin_statemodel" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="3" />
-          <entry key="HTML" value="4" />
-          <entry key="Python" value="11" />
+          <entry key="Database Element" value="5" />
+          <entry key="HTML" value="7" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="18" />
-          <entry key="html" value="935" />
-          <entry key="py" value="593" />
+          <entry key="html" value="1850" />
+          <entry key="py" value="1542" />
           <entry key="py@Swiggy" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="77" />
-          <entry key="HTML" value="935" />
-          <entry key="Python" value="593" />
+          <entry key="HTML" value="1850" />
+          <entry key="Python" value="1542" />
           <entry key="Scratch" value="18" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
+        <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="18" />
+            <state relative-caret-position="155">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -102,24 +109,70 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
+        <entry file="file://$PROJECT_DIR$/s_admin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="216">
+              <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
               <folding>
-                <element signature="e#630#662#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/s_admin/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/s_admin/open_area.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="264">
+              <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#562#604#0#HTML" expanded="true" />
+                <element signature="e#1507#1533#0#HTML" expanded="true" />
+                <element signature="e#1976#2018#0#HTML" expanded="true" />
+                <element signature="e#2185#2212#0#HTML" expanded="true" />
+                <element signature="e#2267#2293#0#HTML" expanded="true" />
+                <element signature="e#2512#2539#0#HTML" expanded="true" />
+                <element signature="e#2597#2623#0#HTML" expanded="true" />
+                <element signature="e#2837#2863#0#HTML" expanded="true" />
+                <element signature="e#3175#3201#0#HTML" expanded="true" />
+                <element signature="e#3257#3283#0#HTML" expanded="true" />
+                <element signature="e#3335#3361#0#HTML" expanded="true" />
+                <element signature="e#3414#3440#0#HTML" expanded="true" />
+                <element signature="e#3489#3515#0#HTML" expanded="true" />
+                <element signature="e#3649#3675#0#HTML" expanded="true" />
+                <element signature="e#3732#3758#0#HTML" expanded="true" />
+                <element signature="e#3818#3844#0#HTML" expanded="true" />
+                <element signature="e#3911#3937#0#HTML" expanded="true" />
+                <element signature="e#4259#4285#0#HTML" expanded="true" />
+                <element signature="e#4685#4763#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s_admin/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+              <folding>
+                <marker date="1586881011362" expanded="true" signature="238:243" ph="..." />
+                <marker date="1586881011362" expanded="true" signature="436:441" ph="..." />
+                <marker date="1586881011362" expanded="true" signature="686:687" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/s_admin/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="10" />
+              <folding>
+                <element signature="e#1#25#0" expanded="true" />
+                <marker date="1586876666906" expanded="true" signature="172:177" ph="..." />
+                <marker date="1586876666906" expanded="true" signature="282:383" ph="..." />
               </folding>
             </state>
           </provider>
@@ -128,11 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="54" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="274">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -140,33 +190,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/admin_home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="e#62#113#0#HTML" />
-                <element signature="e#638#716#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/s_admin/common.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="144">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -174,13 +199,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-              <folding>
-                <element signature="e#123#196#0#HTML" expanded="true" />
-                <element signature="e#578#604#0#HTML" expanded="true" />
-                <element signature="e#885#911#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -191,6 +211,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -201,16 +222,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Swiggy/settings.py" />
-        <option value="$PROJECT_DIR$/s_admin/models.py" />
         <option value="$PROJECT_DIR$/customer/urls.py" />
         <option value="$PROJECT_DIR$/restaurant/urls.py" />
         <option value="$PROJECT_DIR$/Swiggy/urls.py" />
         <option value="$PROJECT_DIR$/templates/s_admin/common.html" />
         <option value="$PROJECT_DIR$/templates/s_admin/login.html" />
         <option value="$PROJECT_DIR$/templates/s_admin/admin_home.html" />
-        <option value="$PROJECT_DIR$/templates/s_admin/menu.html" />
+        <option value="$PROJECT_DIR$/s_admin/forms.py" />
+        <option value="$PROJECT_DIR$/templates/open_state.html" />
+        <option value="$PROJECT_DIR$/templates/s_admin/open_city.html" />
         <option value="$PROJECT_DIR$/s_admin/urls.py" />
+        <option value="$PROJECT_DIR$/templates/s_admin/menu.html" />
         <option value="$PROJECT_DIR$/s_admin/views.py" />
+        <option value="$PROJECT_DIR$/s_admin/models.py" />
+        <option value="$PROJECT_DIR$/templates/s_admin/open_area.html" />
       </list>
     </option>
   </component>
@@ -221,8 +246,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="513" />
-    <option name="y" value="18" />
+    <option name="x" value="512" />
+    <option name="y" value="17" />
     <option name="width" value="1040" />
     <option name="height" value="690" />
   </component>
@@ -234,13 +259,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+              <item name="s_admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +291,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,6 +303,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\templates\s_admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\s_admin\static\images" />
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\customer" />
@@ -335,17 +368,9 @@
     <frame x="-7" y="-7" width="1107" height="602" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24928367" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="manage.py@Swiggy" weight="0.79148936" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.50212765" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32978722" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.7489362" />
@@ -353,36 +378,44 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" weight="0.3295129" />
+      <window_info anchor="bottom" id="manage.py@Swiggy" order="7" weight="0.79148936" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.50212765" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24928367" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="manage.py@Swiggy" order="0" weight="0.79148936" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.50212765" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Database Console" order="6" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.7489362" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="right" id="Database" order="1" weight="0.3295129" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24928367" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7489362" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="manage.py@Swiggy" order="7" weight="0.79148936" />
+      <window_info anchor="bottom" id="Database Console" order="8" weight="0.32978722" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.50212765" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -396,16 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-425">
           <caret line="40" column="39" lean-forward="true" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/s_admin/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1586790594187" expanded="true" signature="66:205" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,42 +446,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_adminloginmodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="315">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="18" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding>
-            <element signature="e#123#196#0#HTML" expanded="true" />
-            <element signature="e#578#604#0#HTML" expanded="true" />
-            <element signature="e#885#911#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/s_admin/common.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="18" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" column="12" selection-start-line="14" selection-start-column="11" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_adminloginmodel">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -471,29 +486,105 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/s_admin/admin_home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        <state relative-caret-position="144">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="10" />
           <folding>
-            <element signature="e#62#113#0#HTML" />
-            <element signature="e#638#716#0#HTML" expanded="true" />
+            <element signature="e#1#25#0" expanded="true" />
+            <marker date="1586876666906" expanded="true" signature="172:177" ph="..." />
+            <marker date="1586876666906" expanded="true" signature="282:383" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="94" column="53" lean-forward="true" selection-end-line="116" selection-end-column="14" />
+          <folding>
+            <element signature="e#287#552#0#HTML" />
+            <element signature="e#526#568#0#HTML" expanded="true" />
+            <element signature="e#709#746#0#HTML" expanded="true" />
+            <element signature="e#795#821#0#HTML" expanded="true" />
+            <element signature="e#998#1024#0#HTML" expanded="true" />
+            <element signature="e#1378#1420#0#HTML" expanded="true" />
+            <element signature="e#1587#1614#0#HTML" expanded="true" />
+            <element signature="e#1687#1713#0#HTML" expanded="true" />
+            <element signature="e#1577#1604#0#HTML" expanded="true" />
+            <element signature="e#1677#1703#0#HTML" expanded="true" />
+            <element signature="e#1880#1906#0#HTML" expanded="true" />
+            <element signature="e#1288#1314#0#HTML" expanded="true" />
+            <element signature="e#1368#1394#0#HTML" expanded="true" />
+            <element signature="e#1429#1455#0#HTML" expanded="true" />
+            <element signature="e#1492#1518#0#HTML" expanded="true" />
+            <element signature="e#1703#1729#0#HTML" expanded="true" />
+            <element signature="e#1773#1799#0#HTML" expanded="true" />
+            <element signature="e#1846#1872#0#HTML" expanded="true" />
+            <element signature="e#1921#1947#0#HTML" expanded="true" />
+            <element signature="e#619#697#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="54" />
+        <state relative-caret-position="274">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="112" column="13" lean-forward="true" selection-end-line="127" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+            <element signature="e#564#606#0#HTML" expanded="true" />
+            <element signature="e#1066#1092#0#HTML" expanded="true" />
+            <element signature="e#1535#1577#0#HTML" expanded="true" />
+            <element signature="e#1744#1771#0#HTML" expanded="true" />
+            <element signature="e#1826#1852#0#HTML" expanded="true" />
+            <element signature="e#2071#2098#0#HTML" expanded="true" />
+            <element signature="e#2156#2182#0#HTML" expanded="true" />
+            <element signature="e#2396#2422#0#HTML" expanded="true" />
+            <element signature="e#2734#2760#0#HTML" expanded="true" />
+            <element signature="e#2816#2842#0#HTML" expanded="true" />
+            <element signature="e#3330#3356#0#HTML" expanded="true" />
+            <element signature="e#2889#2915#0#HTML" expanded="true" />
+            <element signature="e#2964#2990#0#HTML" expanded="true" />
+            <element signature="e#3124#3150#0#HTML" expanded="true" />
+            <element signature="e#3208#3234#0#HTML" expanded="true" />
+            <element signature="e#3818#3844#0#HTML" expanded="true" />
+            <element signature="e#3295#3321#0#HTML" expanded="true" />
+            <element signature="e#3631#3657#0#HTML" expanded="true" />
+            <element signature="e#4045#4123#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_citymodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="155">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
@@ -502,10 +593,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/s_admin/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <marker date="1586881011362" expanded="true" signature="238:243" ph="..." />
+            <marker date="1586881011362" expanded="true" signature="436:441" ph="..." />
+            <marker date="1586881011362" expanded="true" signature="686:687" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
+          <folding>
+            <element signature="e#562#604#0#HTML" expanded="true" />
+            <element signature="e#1507#1533#0#HTML" expanded="true" />
+            <element signature="e#1976#2018#0#HTML" expanded="true" />
+            <element signature="e#2185#2212#0#HTML" expanded="true" />
+            <element signature="e#2267#2293#0#HTML" expanded="true" />
+            <element signature="e#2512#2539#0#HTML" expanded="true" />
+            <element signature="e#2597#2623#0#HTML" expanded="true" />
+            <element signature="e#2837#2863#0#HTML" expanded="true" />
+            <element signature="e#3175#3201#0#HTML" expanded="true" />
+            <element signature="e#3257#3283#0#HTML" expanded="true" />
+            <element signature="e#3335#3361#0#HTML" expanded="true" />
+            <element signature="e#3414#3440#0#HTML" expanded="true" />
+            <element signature="e#3489#3515#0#HTML" expanded="true" />
+            <element signature="e#3649#3675#0#HTML" expanded="true" />
+            <element signature="e#3732#3758#0#HTML" expanded="true" />
+            <element signature="e#3818#3844#0#HTML" expanded="true" />
+            <element signature="e#3911#3937#0#HTML" expanded="true" />
+            <element signature="e#4259#4285#0#HTML" expanded="true" />
+            <element signature="e#4685#4763#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
