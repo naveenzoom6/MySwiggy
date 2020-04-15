@@ -1,0 +1,18 @@
+
+{% extends 'restaurant/common.html' %}
+
+{% block common %}
+    {% include 'restaurant/main_menu.html' %}
+
+    <form action="{% url 'save_res' %}" method="post">
+    {% csrf_token %}
+    <table align="center" border="0">
+        <tr><th colspan="2" style="text-align: center;font-size: 30px;color: red">Restaurant Registration</th></tr>
+        {{ rf }}
+        <tr><th colspan="2" style="text-align: center;">
+        <button type="submit">Register</button> </th></tr>
+    </table>
+    </form>
+
+
+{% endblock %}

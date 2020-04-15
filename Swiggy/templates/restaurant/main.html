@@ -1,0 +1,32 @@
+
+{% extends 'restaurant/common.html' %}
+
+{% block common %}
+    {% load static %}
+    {% include 'restaurant/main_menu.html' %}
+
+    <table align="center" border="0">
+        <tr><th><h1></h1></th></tr>
+        <tr><th><h1></h1></th></tr>
+        <tr><th><h1></h1></th></tr>
+        <tr>
+            <th style="text-align: center">
+                <img src="{% static 'images/restaurants-logo-png-3.png' %}">
+            </th>
+        </tr>
+
+    {% for x in messages %}
+    <tR>
+        <th width="500">
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Message : </strong>
+                {{ x }}
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+        </th>
+    </tR>
+    {% endfor %}
+    </table>
+{% endblock %}

@@ -99,3 +99,16 @@ def save_area(request):
         return redirect('open_area')
     else:
         return render(request, "s_admin/open_area.html", {"sf": sf})
+
+
+def open_type(request):
+    return render(request, 's_admin/open_type.html', {"sf": RestaurantTypeForm(), "sdata": RestaurantTypeModel.objects.all()})
+
+
+def save_type(request):
+    sf = RestaurantTypeForm(request.POST)
+    if sf.is_valid():
+        sf.save()
+        return redirect('open_type')
+    else:
+        return render(request, "s_admin/open_type.html", {"sf": sf})
