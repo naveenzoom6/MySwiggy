@@ -17,6 +17,10 @@
     <tr>
         <th>
 
+
+{# State Operation #}
+
+
                 {% if sf %}
                      <form action="{% url 'save_state' %}" method="post">
                 {% csrf_token %}
@@ -36,6 +40,10 @@
                     </tr>
                 </table>
                      </form>
+
+
+{# State Update Operation #}
+
                  {% elif update_data %}
 
                     <form action="{% url 'update_state_data' %}" method="post">
@@ -66,6 +74,9 @@
                 </table>
                     </form>
                 {% endif %}
+
+
+{# Showing States #}
 
 
         </th>

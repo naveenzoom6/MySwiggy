@@ -16,6 +16,10 @@
 
     <tr>
         <th>
+
+
+{# Add City Opertion #}
+
                 {% if sf %}
                      <form action="{% url 'save_city' %}" method="post">
                 {% csrf_token %}
@@ -25,47 +29,40 @@
                             City Operations
                         </th>
                     </tr>
+
                     {{ sf }}
-{#                    <tr >#}
-{#                        <th style="text-align: center;" height="60" >{{ sf.city_name.label }}</th>#}
-{#                        <th style="text-align: center">{{ sf.city_name }}</th>#}
-{#                        <th>{{ sf.city_name.errors }}</th>#}
-{#                    </tr>#}
-{#                    <tr>#}
-{#                         <th style="text-align: center;" height="60" >{{ sf.state.label }}</th>#}
-{#                        <th style="text-align: center">#}
-{#                            #}
-{#                            <select #}
-{#                            #}
-{#                        </th>#}
-{#                        <th></th>#}
-{#                    </tr>#}
+
                     <tr>
                         <th colspan="3" style="text-align: center"><button type="submit">Save</button> </th>
                     </tr>
                 </table>
                      </form>
+
+{# City Update Opretion  #}
+
+
                  {% elif update_data %}
 
-                    <form action="{% url 'update_state_data' %}" method="post">
+                    <form action="{% url 'update_city_data' %}" method="post">
                     {% csrf_token %}
+
                      <table align="center" border="2" bgcolor="#f5deb3" width="500">
                     <tr>
                         <th colspan="2" height="60" style="text-align: center;font-size: 30px">
-                            State Update Operations
+                            City Update Operations
                         </th>
                     </tr>
                         <tr>
-                        <th style="text-align: center;" height="60">State No</th>
-                        <th style="text-align: center">{{ update_data.sno }}
-                        <input type="hidden" value="{{ update_data.sno }}" name="s1">
+                        <th style="text-align: center;" height="60">city No</th>
+                        <th style="text-align: center">{{ update_data.cno }}
+                        <input type="hidden" value="{{ update_data.cno }}" name="c1">
                         </th>
 
                     </tr>
                     <tr>
-                        <th style="text-align: center;" height="60" >State Name</th>
+                        <th style="text-align: center;" height="60" >City Name</th>
                         <th style="text-align: center">
-                            <input type="text" value="{{ update_data.sname }}" name="s2">
+                            <input type="text" value="{{ update_data.cname }}" name="c2">
                         </th>
 
                     </tr>
@@ -75,6 +72,8 @@
                 </table>
                     </form>
                 {% endif %}
+
+{# Showing City And State #}
 
 
         </th>
@@ -90,22 +89,22 @@
                     <th style="text-align: center" width="100">Delete</th>
                 </tr>
 
-                {% for x in sdata %}
+                {% for x in cdata %}
                     <tr>
                     <th style="text-align: center" width="50">{{ x.city_no }}</th>
                     <th style="text-align: center" width="200">{{ x.city_name }}</th>
                     <th style="text-align: center" width="200">{{ x.state.state_name }}</th>
                     <th style="text-align: center" width="100">
 
-{#                        <a href="{% url 'update_state' %}?sno={{ x.state_no }}&sname={{ x.state_name }}">#}
-{#                            <img src="{% static 'images/refresh-page-option.png' %}" width="25" height="25">#}
-{#                        </a>#}
+                        <a href="{% url 'update_city' %}?cno={{ x.city_no }}&cname={{ x.city_name }}">
+                            <img src="{% static 'images/refresh-page-option.png' %}" width="25" height="25">
+                        </a>
 
                     </th>
                     <th style="text-align: center" width="100">
-{#                        <a href="{% url 'delete_state' %}?sno={{ x.state_no }}">#}
-{#                            <img src="{% static 'images/delete.png' %}" width="25" height="25">#}
-{#                        </a>#}
+                        <a href="{% url 'delete_city' %}?cno={{ x.city_no }}">
+                            <img src="{% static 'images/delete.png' %}" width="25" height="25">
+                        </a>
                     </th>
                 </tr>
                 {% endfor %}
