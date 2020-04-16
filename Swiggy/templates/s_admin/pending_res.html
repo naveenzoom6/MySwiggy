@@ -1,0 +1,72 @@
+
+
+{% extends 's_admin/common.html' %}
+
+{% block common %}
+
+    {% load static %}
+
+    {% if request.session.status %}
+    <table align="center" border="0">
+    <tr>
+        <th>
+            {% include 's_admin/menu.html' %}
+        </th>
+    </tr>
+    </table>
+
+
+        <table align="center" border="2">
+            <tr>
+            <th colspan="8" style="text-align: center;font-family: 'Agency FB';font-size: 30px;color: orangered">
+                Pending Restaurant Information
+            </th>
+        </tr>
+
+        <tr bgcolor="aqua">
+            <th>No</th>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Email</th>
+            <th>Area</th>
+            <th>Type</th>
+            <th>Approve</th>
+            <th>Cancel</th>
+        </tr>
+
+        {% for x in data %}
+            <tr>
+            <td>{{ x.restro_id }}</td>
+            <td>{{ x.restro_name }}</td>
+            <td>{{ x.restro_contact }}</td>
+            <td>{{ x.restro_email }}</td>
+            <td>
+                {{ x.restro_area }}, <br>
+                {{ x.restro_area.city.city_name }},<br>
+                {{ x.restro_area.city.state.state_name }}.
+            </td>
+            <td>{{ x.restro_type }}</td>
+            <th style="text-align: center">
+                <a href="{% url 'approve_res' %}?rno={{ x.restro_id }}"><img src="{% static 'images/thumbs-up.png' %}"></a>
+            </th>
+            <th style="text-align: center">
+                <a href="{% url 'cancel_res' %}?rno={{ x.restro_id }}"><img src="{% static 'images/cancel.png' %}"></a>
+            </th>
+        </tr>
+        {% endfor %}
+
+
+        </table>
+
+
+
+        {% else %}
+
+        <h3 style="text-align: center;font-family: 'Agency FB';font-size: 25px;color: red">
+            Please Do Login
+        </h3>
+
+    {% endif %}
+
+
+{% endblock %}

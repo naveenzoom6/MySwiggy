@@ -49,4 +49,14 @@ urlpatterns = [
     path('open_type/', views.open_type, name="open_type"),
     path('save_type/', views.save_type, name="save_type"),
 
+    #restaurant
+    path('show_pending_res/',views.pending_res,name="show_pending_res"),
+
+    path('show_approved_res/',views.show_approved_res,name="show_approved_res"),
+
+    path('show_cancel_res/',views.show_cancel_res,name="show_cancel_res"),
+
+    path('approve_res/',views.approve_res,name="approve_res"),
+    path('cancel_res/',views.cancel_res,name="cancel_res"),
+
 ]
