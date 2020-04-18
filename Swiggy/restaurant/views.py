@@ -28,7 +28,6 @@ def save_res(request):
 def restro_login(request):
     return render(request,"restaurant/restro_login.html",{"rf":RestroLoginForm()})
 
-
 def restro_login_check(request):
     cno = request.POST.get("contactno")
     upass = request.POST.get("password")
