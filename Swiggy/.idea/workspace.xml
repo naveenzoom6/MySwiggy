@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2806cd5-b6eb-4772-ae17-8d1b2c119f43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f1ff5974-aeef-4b8b-86e7-8987d8fa4827.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f1ff5974-aeef-4b8b-86e7-8987d8fa4827.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Swiggy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Swiggy/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_admin/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_admin/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_admin/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_admin/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/s_admin/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/s_admin/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/s_admin/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/restaurant/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/restaurant/main_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/restaurant/main_menu.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,19 +60,20 @@
     <session id="-2088142192">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="django_session" value="1" />
-          <entry key="html" value="15" />
-          <entry key="py" value="22" />
-          <entry key="restaurant_restaurantmodel" value="1" />
+          <entry key="html" value="27" />
+          <entry key="py" value="35" />
+          <entry key="restaurant_restaurantmodel" value="5" />
           <entry key="s_admin_adminloginmodel" value="2" />
           <entry key="s_admin_areamodel" value="1" />
           <entry key="s_admin_citymodel" value="1" />
@@ -86,25 +82,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="6" />
-          <entry key="HTML" value="15" />
-          <entry key="Python" value="22" />
+          <entry key="Database Element" value="10" />
+          <entry key="HTML" value="27" />
+          <entry key="Python" value="35" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="18" />
-          <entry key="html" value="2491" />
-          <entry key="py" value="2692" />
+          <entry key="html" value="3235" />
+          <entry key="py" value="3612" />
           <entry key="py@Swiggy" value="77" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CommandLine" value="77" />
-          <entry key="HTML" value="2491" />
-          <entry key="Python" value="2692" />
+          <entry key="HTML" value="3235" />
+          <entry key="Python" value="3612" />
           <entry key="Scratch" value="18" />
         </counts>
       </usages-collector>
@@ -149,6 +145,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -183,6 +180,15 @@
                 <marker date="1587045354788" expanded="true" signature="2195:2414" ph="..." />
                 <marker date="1587045354788" expanded="true" signature="2444:2614" ph="..." />
                 <marker date="1587045354788" expanded="true" signature="2639:2775" ph="..." />
+
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/restaurant/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+
               </folding>
             </state>
           </provider>
@@ -229,17 +235,29 @@
         <option value="$PROJECT_DIR$/templates/s_admin/admin_home.html" />
         <option value="$PROJECT_DIR$/templates/open_state.html" />
         <option value="$PROJECT_DIR$/s_admin/forms.py" />
+
         <option value="$PROJECT_DIR$/templates/s_admin/menu.html" />
+
+        <option value="$PROJECT_DIR$/templates/s_admin/open_type.html" />
+
         <option value="$PROJECT_DIR$/Swiggy/urls.py" />
         <option value="$PROJECT_DIR$/templates/restaurant/common.html" />
         <option value="$PROJECT_DIR$/templates/restaurant/login.html" />
-        <option value="$PROJECT_DIR$/templates/restaurant/main_menu.html" />
         <option value="$PROJECT_DIR$/s_admin/models.py" />
         <option value="$PROJECT_DIR$/templates/restaurant/register.html" />
-        <option value="$PROJECT_DIR$/restaurant/urls.py" />
         <option value="$PROJECT_DIR$/templates/restaurant/main.html" />
         <option value="$PROJECT_DIR$/restaurant/models.py" />
+        <option value="$PROJECT_DIR$/templates/s_admin/pending_res.html" />
+        <option value="$PROJECT_DIR$/templates/s_admin/menu.html" />
+        <option value="$PROJECT_DIR$/s_admin/urls.py" />
+        <option value="$PROJECT_DIR$/s_admin/views.py" />
+        <option value="$PROJECT_DIR$/templates/s_admin/approved_res.html" />
+        <option value="$PROJECT_DIR$/templates/s_admin/cancel_res.html" />
+        <option value="$PROJECT_DIR$/templates/restaurant/main_menu.html" />
         <option value="$PROJECT_DIR$/restaurant/forms.py" />
+        <option value="$PROJECT_DIR$/restaurant/urls.py" />
+        <option value="$PROJECT_DIR$/templates/restaurant/restro_home.html" />
+        <option value="$PROJECT_DIR$/templates/restaurant/restro_login.html" />
         <option value="$PROJECT_DIR$/restaurant/views.py" />
         <option value="$PROJECT_DIR$/templates/s_admin/open_state.html" />
         <option value="$PROJECT_DIR$/templates/s_admin/open_city.html" />
@@ -294,6 +312,11 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="restaurant" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,15 +333,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\templates\s_admin" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\s_admin\static\images" />
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\templates\restaurant" />
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\customer" />
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\restaurant" />
       <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\s_admin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Naveen Class Room\Django 8pm Project\Extra\MySwiggy\Swiggy\templates\s_admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,7 +403,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27035332" />
+
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52978724" />
+
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +432,10 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27035332" />
+
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52978724" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -483,6 +513,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="94" column="53" lean-forward="true" selection-end-line="116" selection-end-column="14" />
+          <folding>
+            <element signature="e#287#552#0#HTML" />
+            <element signature="e#526#568#0#HTML" expanded="true" />
+            <element signature="e#709#746#0#HTML" expanded="true" />
+            <element signature="e#795#821#0#HTML" expanded="true" />
+            <element signature="e#998#1024#0#HTML" expanded="true" />
+            <element signature="e#1378#1420#0#HTML" expanded="true" />
+            <element signature="e#1587#1614#0#HTML" expanded="true" />
+            <element signature="e#1687#1713#0#HTML" expanded="true" />
+            <element signature="e#1577#1604#0#HTML" expanded="true" />
+            <element signature="e#1677#1703#0#HTML" expanded="true" />
+            <element signature="e#1880#1906#0#HTML" expanded="true" />
+            <element signature="e#1288#1314#0#HTML" expanded="true" />
+            <element signature="e#1368#1394#0#HTML" expanded="true" />
+            <element signature="e#1429#1455#0#HTML" expanded="true" />
+            <element signature="e#1492#1518#0#HTML" expanded="true" />
+            <element signature="e#1703#1729#0#HTML" expanded="true" />
+            <element signature="e#1773#1799#0#HTML" expanded="true" />
+            <element signature="e#1846#1872#0#HTML" expanded="true" />
+            <element signature="e#1921#1947#0#HTML" expanded="true" />
+            <element signature="e#619#697#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="112" column="13" lean-forward="true" selection-end-line="127" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_citymodel">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -512,6 +586,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="87" column="74" lean-forward="true" selection-start-line="87" selection-start-column="74" selection-end-line="87" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+
     <entry file="file://$PROJECT_DIR$/s_admin/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -519,13 +601,6 @@
           <folding>
             <element signature="e#1#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -567,6 +642,7 @@
         </state>
       </provider>
     </entry>
+
     <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/restaurant_restaurantmodel">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -594,12 +670,71 @@
           <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
+
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/common.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+          <folding>
+            <element signature="e#304#330#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
+    <entry file="file://$PROJECT_DIR$/s_admin/models.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <marker date="1586965877426" expanded="true" signature="238:243" ph="..." />
+            <marker date="1586965877426" expanded="true" signature="436:441" ph="..." />
+            <marker date="1586965877426" expanded="true" signature="686:687" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/pending_res.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="58" selection-end-line="71" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/cancel_res.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#350#432#0#HTML" expanded="true" />
+
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/approved_res.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="61" selection-end-line="65" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+
         <state relative-caret-position="298">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
@@ -611,11 +746,50 @@
           <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
+
+        <state relative-caret-position="389">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+
     <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="119" column="13" lean-forward="true" selection-start-line="117" selection-start-column="5" selection-end-line="119" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/restaurant_restaurantmodel">
+
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -647,16 +821,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="52" column="56" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+
+    <entry file="file://$PROJECT_DIR$/restaurant/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <marker date="1587221547311" expanded="true" signature="363:368" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/restro_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/restro_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+
     <entry file="file://$PROJECT_DIR$/s_admin/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="159" column="42" selection-start-line="159" selection-start-column="42" selection-end-line="159" selection-end-column="42" />
+
+    <entry file="file://$PROJECT_DIR$/templates/restaurant/main_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurant/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+
           <folding>
             <element signature="e#0#44#0" expanded="true" />
             <marker date="1587045354788" expanded="true" signature="2195:2414" ph="..." />

@@ -1,0 +1,13 @@
+{% extends 'restaurant/common.html' %}
+
+{% block common %}
+
+    {% if request.session.status %}
+        Welcome
+    {% else %}
+           <h3 style="text-align: center;font-family: 'Agency FB';font-size: 25px;color: red">
+            Please Do Login
+           </h3>
+    {% endif %}
+
+{% endblock %}

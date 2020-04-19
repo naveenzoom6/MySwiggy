@@ -1,0 +1,24 @@
+
+
+{% extends 'restaurant/common.html' %}
+
+{% block common %}
+    {% include 'restaurant/main_menu.html' %}
+
+    <form action="{% url 'restro_login_check' %}" method="post">
+    {% csrf_token %}
+    <table align="center" border="0">
+        <tr><th colspan="2" style="text-align: center;font-size: 30px;color: red">Restaurant Login </th></tr>
+        {{ rf }}
+        <tr><th colspan="2" style="text-align: center;">
+        <button type="submit">Login</button> </th></tr>
+        </table>
+
+        {% if error %}
+                <h1 style="color: red;text-align:center;font-family: 'Arial Black';font-size: 20px">{{ error }}</h1>
+        {% endif %}
+
+    </form>
+
+
+{% endblock %}

@@ -1,8 +1,8 @@
 from django.shortcuts import render,redirect
-
 from django.contrib import messages
 from s_admin.forms import *
 from s_admin.models import *
+from restaurant.models import RestaurantModel
 
 
 #Admin Opretion
@@ -153,6 +153,7 @@ def save_type(request):
         return render(request, "s_admin/open_type.html", {"sf": sf})
 
 
+#<<<<<<< HEAD
 def update_type(request):
     tno = request.GET.get("tno")
     tname = request.GET.get("tname")
@@ -172,3 +173,30 @@ def delete_type(request):
     RestaurantTypeModel.objects.filter(no=tno).delete()
     return redirect('open_type')
 
+#=======
+def pending_res(request):
+    rs = RestaurantModel.objects.filter(restro_status='pending')
+    return render(request,"s_admin/pending_res.html",{"data":rs})
+
+
+def approve_res(request):
+    rno = request.GET.get("rno")
+    RestaurantModel.objects.filter(restro_id=rno).update(restro_status='approved')
+    return redirect('admin_home')
+
+
+def cancel_res(request):
+    rno = request.GET.get("rno")
+    RestaurantModel.objects.filter(restro_id=rno).update(restro_status='cancel')
+    return redirect('admin_home')
+
+
+def show_approved_res(request):
+    rs = RestaurantModel.objects.filter(restro_status='approved')
+    return render(request, "s_admin/approved_res.html", {"data": rs})
+
+
+def show_cancel_res(request):
+    rs = RestaurantModel.objects.filter(restro_status='cancel')
+    return render(request, "s_admin/cancel_res.html", {"data": rs})
+#>>>>>>> upstream/master
