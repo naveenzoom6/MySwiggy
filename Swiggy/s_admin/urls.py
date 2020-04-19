@@ -49,6 +49,13 @@ urlpatterns = [
     path('open_type/', views.open_type, name="open_type"),
     path('save_type/', views.save_type, name="save_type"),
 
+#<<<<<<< HEAD
+    path('update_type/', views.update_type, name="update_type"),
+    path('update_type_data/', views.update_type_data, name="update_type_data"),
+    path('delete_type/', views.delete_type, name='delete_type'),
+#=======
+
+
     #restaurant
     path('show_pending_res/',views.pending_res,name="show_pending_res"),
 
@@ -59,7 +66,10 @@ urlpatterns = [
     path('approve_res/',views.approve_res,name="approve_res"),
     path('cancel_res/',views.cancel_res,name="cancel_res"),
 
+
     path('update_type/', views.update_type, name="update_type"),
     path('update_type_data/', views.update_type_data, name="update_type_data"),
     path('delete_type/', views.delete_type, name='delete_type'),
+#>>>>>>> upstream/master
+
 ]

@@ -153,6 +153,28 @@ def save_type(request):
         return render(request, "s_admin/open_type.html", {"sf": sf})
 
 
+
+#<<<<<<< HEAD
+def update_type(request):
+    tno = request.GET.get("tno")
+    tname = request.GET.get("tname")
+    d1 = {"tno": tno, "tname": tname}
+    return render(request, "s_admin/open_type.html", {"update_data": d1, "tdata": RestaurantTypeModel.objects.all()})
+
+
+def update_type_data(request):
+    tno = request.POST.get("t1")
+    tname = request.POST.get("t2")
+    RestaurantTypeModel.objects.filter(no=tno).update(type_name=tname)
+    return redirect('open_type')
+
+
+def delete_type(request):
+    tno = request.GET.get("tno")
+    RestaurantTypeModel.objects.filter(no=tno).delete()
+    return redirect('open_type')
+
+#=======
 def pending_res(request):
     rs = RestaurantModel.objects.filter(restro_status='pending')
     return render(request,"s_admin/pending_res.html",{"data":rs})
@@ -196,3 +218,4 @@ def delete_type(request):
     tno = request.GET.get("tno")
     RestaurantTypeModel.objects.filter(no=tno).delete()
     return redirect('open_type')
+#>>>>>>> upstream/master
